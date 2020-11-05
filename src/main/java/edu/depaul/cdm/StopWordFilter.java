@@ -46,7 +46,7 @@ public class StopWordFilter extends SimpleFilter<ArrayList<String>, ArrayList<St
 
         ArrayList<String> stopWords = new ArrayList<String>();
         
-        try (BufferedReader br = Files.newBufferedReader(Paths.get("/Users/Pedro/Downloads/stopwords.txt"))) {
+        try (BufferedReader br = Files.newBufferedReader(Paths.get("src","main","resources","stopwords.txt"))){
             // read line by line
             String line;
             while ((line = br.readLine()) != null) {

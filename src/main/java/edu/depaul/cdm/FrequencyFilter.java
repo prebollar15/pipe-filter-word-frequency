@@ -38,6 +38,7 @@ public class FrequencyFilter extends SimpleFilter<ArrayList<String>, List> {
     }
 
     //Sort the values in descending order
+    //Using compare code from https://beginnersbook.com/2013/12/how-to-sort-hashmap-in-java-by-keys-and-values/
     private static List sortByValue(Map<String, Integer> map){
         
         List list2=new ArrayList(map.entrySet());

@@ -3,6 +3,10 @@ package edu.depaul.cdm;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/*
+    Utilized the Pipe/Filter Data Structure from https://gist.github.com/roryokane/9606238 for Pipes, Filters, Sink & Main Runner
+*/
 public class App 
 {
     public static void main( String[] args ){
