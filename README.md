@@ -38,7 +38,3 @@ PipeFilterWordFrequency
 
     ex. ```$ /Users/Username/Foler/file.txt```
 
-5. Enter stopWords.txt file location:
-
-    ex. ```$ /Users/Username/Foler/stopWords.txt```
-
