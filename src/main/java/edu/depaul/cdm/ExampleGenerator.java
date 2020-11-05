@@ -1,6 +1,5 @@
 package edu.depaul.cdm;
 
-
 public class ExampleGenerator extends Generator<Integer> {
     public ExampleGenerator(Pipe<Integer> output) {
         super(output);
