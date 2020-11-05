@@ -5,3 +5,4 @@ public interface Pipe<T> {
     public T nextOrNullIfEmptied() throws InterruptedException;
     public void closeForWriting();
 }
+

@@ -1,13 +1,9 @@
 package edu.depaul.cdm;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
+
+public class ExampleRunner {
+    public static void main(String[] args) {
+        // create pipes
         final Pipe<Integer> genToFilter = new PipeImpl<Integer>();
         final Pipe<String> filterToOut = new PipeImpl<String>();
 
